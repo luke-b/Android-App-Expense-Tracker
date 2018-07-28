@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="@drawable/headerback1"
+    android:baselineAligned="true"
+    android:padding="5dip" >
+
+        <Button
+            android:id="@+id/manageBack1"
+            android:background="@drawable/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="" /> <!-- @string/back -->
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="5dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/manage_labels"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+        
+          <Button
+              android:id="@+id/manageAdd1"
+              android:background="@drawable/addback"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:text="" /> <!-- @string/add -->
+
+</LinearLayout>

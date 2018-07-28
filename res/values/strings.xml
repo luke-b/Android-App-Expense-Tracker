@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome_line0">Welcome \nand Thank You!</string>
+    <string name="welcome_line1">You may now add the\nwidget to your homescreen:</string>
+    <string name="welcome_line2">Go to your homescreen</string>
+    <string name="welcome_line3">Longpress on a free spot</string>
+    <string name="welcome_line4">Choose the \'Expenses\' widget</string>
+    <string name="welcome_line5">Your app is now installed and ready \nfor everyday use! Thank you.</string>
+    <string name="welcome_line6">Proceed</string>
+    
+    
+    <string name="welcome_line0_local">Welcome,\nThank You!</string>
+    <string name="welcome_line1a_local">Special edition for&#160;</string>
+    <string name="welcome_line1b_local">Add widget to your homescreen:</string>
+    <string name="welcome_line2_local">Go to your homescreen</string>
+    <string name="welcome_line3_local">Longpress on a free spot</string>
+    <string name="welcome_line4_local">Choose the \'Expenses\' widget</string>
+    <string name="welcome_line5a_local">Default currency is&#160;</string>
+    <string name="welcome_line5b_local">(You can change this anytime)</string>
+    <string name="welcome_line6_local">Proceed</string>
+    
+  
+    <string name="hint_label">Add this month\'s first expense record now.</string>
+    <string name="warning_label">No expenses recorded in the given month.</string>
+    <string name="stats_warning_label">No statistics for the given month and currency.</string>
+    <string name="generating_label">Generating statistics ...</string>
+    <string name="app_name">Expenses</string>
+    <string name="emptydummy1">"      "</string>
+    <string name="emptydummy2">" "</string>
+    <string name="widget_add_button">Add +</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="add_label">Add Label</string>
+    <string name="add_new_expense">Add Expense</string>
+    <string name="labls">Labls</string>
+    <string name="add">Add</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="currency">Currency</string>
+    <string name="expense_value">Value</string>
+    <string name="expenses_list">Expenses List</string>
+    <string name="widget_title">Expenses</string>
+    <string name="filtr">filtr</string>
+    <string name="label_color">Color</string>
+    <string name="label_name">Name</string>
+    <string name="label">Label</string>
+    <string name="list">List</string>
+    <string name="manage_labels">Manage labels</string>
+    <string name="my_expenses_header_title">My Expenses</string>
+    <string name="next">Next</string>
+    <string name="prev">Prev</string>
+    <string name="statistics">Statistics</string>
+    <string name="stats">Stats</string>
+    <string name="total_label">Total:</string>
+    <string name="are_you_sure_dialog_title">Are you sure?</string>
+    <string name="delete_expense_dialog_label">Delete expense:&#160;</string>
+    <string name="yes_choice_label">Yes</string>
+    <string name="no_choice_label">No</string>
+    <string name="warning_dialog_title">Warning</string>
+    <string name="please_type_a_valid_number_">Please type a valid number.</string>
+    <string name="ok_button_caption">OK</string>
+    <string name="you_entered_label">You entered:&#160;</string>
+    <string name="_wanna_add_it_label">\n wanna add it?</string>
+    <string name="add_button_label">Add</string>
+    <string name="discard_button_label">Discard</string>
+    <string name="expense_stored_toast_label">Expense stored ...</string>
+    <string name="add_new_label_text">Add New Label</string>
+    <string name="are_you_sure_title_dialog">Are you sure?</string>
+    <string name="delete_label_text">Delete label \'</string>
+    <string name="question_mark">\' ?</string>
+    <string name="yes_option_button">Yes</string>
+    <string name="no_option_button_label">No</string>
+    <string name="add_new_label">Add New Label</string>
+    <string name="create_new_label_act_title">Create new label</string>
+    <string name="warning">Warning</string>
+    <string name="label_name_is_invalid_">Label name is invalid.</string>
+    <string name="ok">OK</string>
+    <string name="expense_stored_">Expense stored ...</string>
+
+</resources>

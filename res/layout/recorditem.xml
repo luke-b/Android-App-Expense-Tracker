@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/recordDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.7.2012"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <LinearLayout
+        android:layout_width="0dip"
+        android:paddingRight="5dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1" >
+        
+        <TextView
+        android:id="@+id/recordLabelSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:shadowDy="1"
+        android:shadowColor="#aa000000"
+        android:text="@string/label"
+        android:background="#ffff0000"
+        android:singleLine="true"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <View android:layout_width="0dip"
+              android:layout_weight="1"
+              android:layout_height="1dip"
+            />
+        
+    </LinearLayout>
+    
+    
+
+    <TextView
+        android:id="@+id/recordValue"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:paddingRight="5dip"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="150,50"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/recordCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CZK"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

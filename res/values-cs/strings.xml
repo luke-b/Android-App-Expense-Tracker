@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome_line0">Srdečně vítáme, \nděkujeme Vám!</string>
+    <string name="welcome_line1">Nyní si můžete přidat\nwidget na domovskou obrazovku:</string>
+    <string name="welcome_line2">Přejděte na dom. obrazovku</string>
+    <string name="welcome_line3">Vyberte volné místo a podržte</string>
+    <string name="welcome_line4">Z nabídky vyberte widget</string>
+    <string name="welcome_line5">Pozor! Pro funkci Widgetu \nnesmí být appka na SD kartě.</string>
+    <string name="welcome_line6">Pokračovat</string>
+    
+    
+       <string name="welcome_line0_local">Welcome,\nThank You!</string>
+    <string name="welcome_line1a_local">Special edition for&#160;</string>
+    <string name="welcome_line1b_local">Add widget to your homescreen:</string>
+    <string name="welcome_line2_local">Go to your homescreen</string>
+    <string name="welcome_line3_local">Longpress on a free spot</string>
+    <string name="welcome_line4_local">Choose the \'Expenses\' widget</string>
+    <string name="welcome_line5a_local">Default currency is&#160;</string>
+    <string name="welcome_line5b_local">(You can change this anytime)</string>
+    <string name="welcome_line6_local">Proceed</string>
+    
+    <string name="hint_label">Zahajte tento měsíc, přidejte první záznam.</string>
+    <string name="warning_label">V tomto měsíci nejsou žádné záznamy.</string>
+    <string name="stats_warning_label">Pro zvolený měsíc a měnu nejsou žádné záznamy.</string>
+    <string name="generating_label">Vytvářím statistiku ...</string>
+    <string name="app_name">Mé Výdaje</string>
+    <string name="emptydummy1">"      "</string>
+    <string name="emptydummy2">" "</string>
+    <string name="widget_add_button">Add +</string>
+    <string name="add_expense">Přidat výdaj</string>
+    <string name="add_label">Přidat</string>
+    <string name="add_new_expense">Přidat</string> <!-- přidat nový výdaj -->
+    <string name="labls">Značky</string>
+    <string name="add">Přidat</string>
+    <string name="back">Zpět</string>
+    <string name="cancel">Storno</string>
+    <string name="currency">Měna</string>
+    <string name="expense_value">Cena</string> <!-- hodnota výdaje -->
+    <string name="expenses_list">Výpis výdajů</string>
+    <string name="widget_title">Mé výdaje</string>
+    <string name="filtr">filtr</string>
+    <string name="label_color">Barva </string>
+    <string name="label_name">Název</string>
+    <string name="label">Kategorie</string>
+    <string name="list">Výpis</string>
+    <string name="manage_labels">Mé kategorie</string>
+    <string name="my_expenses_header_title">Mé výdaje</string>
+    <string name="next">Další</string>
+    <string name="prev">Předchozí</string>
+    <string name="statistics">Statistika</string>
+    <string name="stats">Stats</string>
+    <string name="total_label">Součet:&#160;</string>
+    <string name="are_you_sure_dialog_title">Jste si jist?</string>
+    <string name="delete_expense_dialog_label">Smazat výdaj:&#160;</string>
+    <string name="yes_choice_label">Ano</string>
+    <string name="no_choice_label">Ne</string>
+    <string name="warning_dialog_title">Pozor</string>
+    <string name="please_type_a_valid_number_">Zadejte platnou hodnotu.</string>
+    <string name="ok_button_caption">OK</string>
+    <string name="you_entered_label">Zadal jste:&#160;</string>
+    <string name="_wanna_add_it_label">\n mám to přidat?</string>
+    <string name="add_button_label">Přidej</string>
+    <string name="discard_button_label">Zahoď</string>
+    <string name="expense_stored_toast_label">Výdaj uložen ...</string>
+    <string name="add_new_label_text">Přidej Kategorii</string>
+    <string name="are_you_sure_title_dialog">Jste si jist?</string>
+    <string name="delete_label_text">Smazat kategorii \'</string>
+    <string name="question_mark">\'?</string>
+    <string name="yes_option_button">Ano</string>
+    <string name="no_option_button_label">Ne</string>
+    <string name="add_new_label">Přidej Kategorii</string>
+    <string name="create_new_label_act_title">Vytvořit kategorii</string>
+    <string name="warning">Pozor</string>
+    <string name="label_name_is_invalid_">Název kategorie je neplatný.</string>
+    <string name="ok">OK</string>
+    <string name="expense_stored_">Výdaj uložen ...</string>
+
+</resources>

@@ -1,0 +1,58 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.steepmax.expenses.AppSQLHelper:
+    public static final java.lang.String DATABASE_NAME
+    public static final int DATABASE_VERSION
+    public static final java.lang.String EXPENSES_COLUMN_ID
+    public static final java.lang.String EXPENSES_COLUMN_DATE
+    public static final java.lang.String EXPENSES_COLUMN_VALUE
+    public static final java.lang.String EXPENSES_COLUMN_CURRENCY
+    public static final java.lang.String EXPENSES_COLUMN_YEAR
+    public static final java.lang.String EXPENSES_COLUMN_MONTH
+    public static final java.lang.String EXPENSES_COLUMN_WEEK
+    public static final java.lang.String EXPENSES_COLUMN_LABEL
+    public static final java.lang.String LABELS_COLUMN_ID
+    public static final java.lang.String LABELS_COLUMN_COLOR
+    public static final java.lang.String LABELS_COLUMN_NAME
+com.steepmax.expenses.BuildConfig
+com.steepmax.expenses.ExpenseRecord:
+    41:42:public void setId(long)
+    47:48:public void setDate(java.util.Date)
+    53:54:public void setValue(java.math.BigDecimal)
+    59:60:public void setCurrency(int)
+    62:62:public int getYear()
+    65:66:public void setYear(int)
+    68:68:public int getMonth()
+    71:72:public void setMonth(int)
+    74:74:public int getWeek()
+    77:78:public void setWeek(int)
+    82:82:public int getLabelId()
+com.steepmax.expenses.ExpensesActivity:
+    private static final long DELAY
+com.steepmax.expenses.ExpensesCurrency:
+    5:5:public ExpensesCurrency()
+com.steepmax.expenses.ExpensesWidgetProvider:
+    private static final java.lang.String ACTION_CLICK
+com.steepmax.expenses.InputActivity:
+    private com.steepmax.expenses.NewLabelDialog dialog
+    private java.util.List values
+com.steepmax.expenses.LabelsList:
+    public static final int ADD_NEW_LABEL
+    public static final int EMPTY_LABEL
+    8:8:public LabelsList()
+    30:46:public static java.lang.String[] getCaptions()
+    63:69:public static void cleanLabels()
+com.steepmax.expenses.NewLabelDialog:
+    public java.util.ArrayList data
+com.steepmax.expenses.R
+com.steepmax.expenses.R$attr
+com.steepmax.expenses.R$drawable
+com.steepmax.expenses.R$id
+com.steepmax.expenses.R$layout
+com.steepmax.expenses.R$string
+com.steepmax.expenses.R$style
+com.steepmax.expenses.R$xml
+com.steepmax.expenses.StatsActivity:
+    private java.lang.Object sums
+com.steepmax.expenses.StatsItem:
+    54:55:public void setPercentageLabel(java.lang.String)

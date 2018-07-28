@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/generatingHeader1"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff44bb00"
+    android:baselineAligned="true"
+    android:padding="5dip" >  <!-- @drawable/headerback2  --> <!-- @string/back -->
+
+     <LinearLayout 
+        	android:layout_width="0dip"
+        	android:layout_weight="1"
+        	android:layout_height="wrap_content"
+        	android:gravity="left"
+        	  android:layout_gravity="center_vertical"
+        >
+ 
+            <ProgressBar
+        android:id="@+id/progressBar1"
+        android:paddingLeft="10dip"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+         
+         <TextView
+            android:id="@+id/generatingTextView1"
+            android:textColor="#ffffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:text="@string/generating_label"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+             />
+        
+    </LinearLayout>
+    
+       
+        
+          <Button
+              android:id="@+id/generatingButton2"
+              android:background="@drawable/closeicon"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:text="" /> <!-- @string/label -->
+
+</LinearLayout>

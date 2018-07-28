@@ -1,0 +1,446 @@
+com.steepmax.expenses.AppSQLHelper -> com.steepmax.expenses.a:
+    java.lang.String TABLE_EXPENSES -> a
+    java.lang.String TABLE_LABELS -> b
+    java.lang.String DATABASE_CREATE1 -> c
+    java.lang.String DATABASE_CREATE2 -> d
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+    void insertDefaultData(android.database.sqlite.SQLiteDatabase) -> a
+com.steepmax.expenses.AsyncOperation -> com.steepmax.expenses.b:
+    android.view.View header1 -> a
+    android.view.View header2 -> b
+    android.widget.ProgressBar spinner1 -> c
+    long delay -> d
+    com.steepmax.expenses.OperationCommand command -> e
+    boolean currentMonth -> f
+    boolean cancelled -> g
+    android.os.Handler handler -> h
+    boolean operationResult -> i
+    int generatingHeaderId -> j
+    android.view.View header3 -> k
+    void startOperation(android.app.Activity,boolean,int,int,int,long,com.steepmax.expenses.OperationCommand) -> a
+    void setCancelled() -> a
+    void run() -> run
+    void makeViewGone(android.view.View) -> a
+    void makeViewVisible(android.view.View) -> b
+    com.steepmax.expenses.OperationCommand access$0(com.steepmax.expenses.AsyncOperation) -> a
+    void access$1(com.steepmax.expenses.AsyncOperation,boolean) -> a
+    android.widget.ProgressBar access$2(com.steepmax.expenses.AsyncOperation) -> b
+    void access$3(com.steepmax.expenses.AsyncOperation,android.view.View) -> a
+    int access$4(com.steepmax.expenses.AsyncOperation) -> c
+    android.view.View access$5(com.steepmax.expenses.AsyncOperation) -> d
+    boolean access$6(com.steepmax.expenses.AsyncOperation) -> e
+    android.view.View access$7(com.steepmax.expenses.AsyncOperation) -> f
+    android.view.View access$8(com.steepmax.expenses.AsyncOperation) -> g
+    boolean access$9(com.steepmax.expenses.AsyncOperation) -> h
+    void access$10(com.steepmax.expenses.AsyncOperation,android.view.View) -> b
+com.steepmax.expenses.AsyncOperation$1 -> com.steepmax.expenses.c:
+    com.steepmax.expenses.AsyncOperation this$0 -> a
+    void run() -> run
+com.steepmax.expenses.AsyncOperation$2 -> com.steepmax.expenses.d:
+    com.steepmax.expenses.AsyncOperation this$0 -> a
+    android.view.View val$v -> b
+    void run() -> run
+com.steepmax.expenses.AsyncOperation$3 -> com.steepmax.expenses.e:
+    com.steepmax.expenses.AsyncOperation this$0 -> a
+    android.view.View val$v -> b
+    void run() -> run
+com.steepmax.expenses.CurrencylAdapter -> com.steepmax.expenses.f:
+    int resId -> a
+    android.content.Context context -> b
+    java.lang.String[] objects -> c
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    android.view.View getDropDownView(int,android.view.View,android.view.ViewGroup) -> getDropDownView
+com.steepmax.expenses.ExpenseRecord -> com.steepmax.expenses.g:
+    long id -> a
+    java.util.Date date -> b
+    java.math.BigDecimal value -> c
+    int currency -> d
+    int year -> e
+    int month -> f
+    int week -> g
+    com.steepmax.expenses.LabelRecord label -> h
+    long getId() -> a
+    java.util.Date getDate() -> b
+    java.math.BigDecimal getValue() -> c
+    int getCurrency() -> d
+    com.steepmax.expenses.LabelRecord getLabel() -> e
+com.steepmax.expenses.ExpensesActivity -> com.steepmax.expenses.ExpensesActivity:
+    java.util.List values -> a
+    com.steepmax.expenses.AsyncOperation async -> b
+    void onPause() -> onPause
+    void resetList() -> b
+    void resetList(long) -> a
+    void onResume() -> onResume
+    void onCreate(android.os.Bundle) -> onCreate
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    void jumpToStatistics() -> a
+    void access$0(com.steepmax.expenses.ExpensesActivity,java.util.List) -> a
+    java.util.List access$1(com.steepmax.expenses.ExpensesActivity) -> a
+    void access$2(com.steepmax.expenses.ExpensesActivity,long) -> a
+    void access$3(com.steepmax.expenses.ExpensesActivity) -> b
+com.steepmax.expenses.ExpensesActivity$1 -> com.steepmax.expenses.h:
+    com.steepmax.expenses.ExpensesActivity this$0 -> a
+    com.steepmax.expenses.ExpensesApplication val$app -> b
+    boolean command() -> a
+com.steepmax.expenses.ExpensesActivity$2 -> com.steepmax.expenses.i:
+    com.steepmax.expenses.ExpensesActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.ExpensesActivity$3 -> com.steepmax.expenses.j:
+    com.steepmax.expenses.ExpensesActivity this$0 -> a
+    com.steepmax.expenses.ExpensesApplication val$app -> b
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.ExpensesActivity$4 -> com.steepmax.expenses.k:
+    com.steepmax.expenses.ExpensesActivity this$0 -> a
+    com.steepmax.expenses.ExpensesApplication val$app -> b
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.ExpensesActivity$5 -> com.steepmax.expenses.l:
+    com.steepmax.expenses.ExpensesActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.ExpensesActivity$6 -> com.steepmax.expenses.m:
+    com.steepmax.expenses.ExpensesActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.ExpensesActivity$7 -> com.steepmax.expenses.n:
+    com.steepmax.expenses.ExpensesActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.ExpensesActivity$8 -> com.steepmax.expenses.o:
+    com.steepmax.expenses.ExpensesActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.ExpensesActivity$9 -> com.steepmax.expenses.p:
+    com.steepmax.expenses.ExpensesActivity this$0 -> a
+    com.steepmax.expenses.ExpenseRecord val$rec -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.steepmax.expenses.ExpensesAdapter -> com.steepmax.expenses.q:
+    int resId -> c
+    android.content.Context context -> d
+    java.util.List objects -> e
+    java.text.SimpleDateFormat formatter -> a
+    java.text.DecimalFormat valueFormat -> b
+    android.text.format.DateFormat df -> f
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.steepmax.expenses.ExpensesApplication -> com.steepmax.expenses.ExpensesApplication:
+    java.text.SimpleDateFormat formatter -> a
+    java.lang.String[] months_cs -> f
+    com.steepmax.expenses.ExpensesDataSource datasource -> b
+    com.steepmax.expenses.LabelsDataSource datasource2 -> c
+    com.steepmax.expenses.AppSQLHelper sqlHelper -> g
+    android.database.sqlite.SQLiteDatabase db -> h
+    java.util.List palette -> d
+    com.steepmax.expenses.OnLabelEditorFinished handler -> i
+    com.steepmax.expenses.NewLabelDialog labelDialog -> j
+    android.content.SharedPreferences preferences -> e
+    android.content.SharedPreferences$Editor editor -> k
+    java.util.Calendar currentDate -> l
+    int currentMonth -> m
+    int currentYear -> n
+    int startMonth -> o
+    int startYear -> p
+    android.widget.Toast lastToast -> q
+    void setOnLabelEditorFinished(com.steepmax.expenses.OnLabelEditorFinished) -> a
+    java.lang.String getCurrentMonthLabel() -> a
+    void onCreate() -> onCreate
+    void setPreviousMonth() -> b
+    void setNextMonth() -> c
+    int getDefaultLabelIndex() -> d
+    void saveLabelIndex(int) -> a
+    void showToast(java.lang.String) -> a
+    void setSpinnerIndex(android.widget.Spinner,int) -> a
+    void saveCurrency(int) -> b
+    int getCurrency() -> e
+    void onTerminate() -> onTerminate
+    void showAddLabelDialog(android.content.Context) -> a
+    void cancelLabelDialog() -> f
+    void onNewLabelCreated(int,java.lang.String,com.steepmax.expenses.LabelRecord) -> a
+    void onNewLabelCancelled() -> g
+    void reloadLabelsList() -> h
+    int getMonth() -> i
+    int getYear() -> j
+    boolean isCurrentMonth() -> k
+    boolean isFirstRun() -> l
+    void firstRunFinished() -> m
+    java.lang.String getCountryDisplay() -> n
+    int getCurrencyIndex() -> o
+    java.lang.String getCurrencyDisplay() -> p
+    int getFlagResourceId() -> q
+com.steepmax.expenses.ExpensesApplication$1 -> com.steepmax.expenses.r:
+    com.steepmax.expenses.ExpensesApplication this$0 -> a
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.steepmax.expenses.ExpensesCurrency -> com.steepmax.expenses.s:
+    java.lang.String[] symbols -> a
+    java.lang.String[] symbols_cs -> b
+    java.lang.String[] names -> c
+    java.lang.String[] names_cs -> d
+    int getSymbolIndex(java.lang.String) -> a
+    java.lang.String[] getCurrencySymbols() -> a
+    java.lang.String[] getCurrencyNames() -> b
+com.steepmax.expenses.ExpensesDataSource -> com.steepmax.expenses.t:
+    android.database.sqlite.SQLiteDatabase database -> a
+    com.steepmax.expenses.AppSQLHelper dbHelper -> b
+    java.lang.String[] allColumns -> c
+    java.lang.String[] allColumnsLabel -> d
+    com.steepmax.expenses.ExpenseRecord createExpense(java.util.Date,java.math.BigDecimal,int,int,int,int,com.steepmax.expenses.LabelRecord) -> a
+    com.steepmax.expenses.ExpenseRecord cursorToComment(android.database.Cursor) -> a
+    void deleteExpense(com.steepmax.expenses.ExpenseRecord) -> a
+    java.util.List getAllComments(int,int) -> a
+    float getExpensesTotal(int,int,int,int) -> a
+com.steepmax.expenses.ExpensesWidgetProvider -> com.steepmax.expenses.ExpensesWidgetProvider:
+    void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> onUpdate
+com.steepmax.expenses.InputActivity -> com.steepmax.expenses.InputActivity:
+    java.math.BigDecimal value -> a
+    int currency -> b
+    void onResume() -> onResume
+    void onRestart() -> onRestart
+    void showWelcomeDialog() -> h
+    void onStop() -> onStop
+    void onPause() -> onPause
+    void onCreate(android.os.Bundle) -> onCreate
+    void addExpense() -> a
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+    boolean hasAddableValue() -> b
+    java.lang.String getFormattedInput() -> c
+    void jumpToExpenses() -> d
+    void jumpToLabelManagement() -> e
+    void jumpToStatistics() -> f
+    void onNewLabelCreated(int,java.lang.String,com.steepmax.expenses.LabelRecord) -> a
+    void onNewLabelCancelled() -> g
+com.steepmax.expenses.InputActivity$1 -> com.steepmax.expenses.u:
+    com.steepmax.expenses.InputActivity this$0 -> a
+    com.steepmax.expenses.ExpensesApplication val$app -> b
+    android.app.Dialog val$dialog -> c
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.InputActivity$10 -> com.steepmax.expenses.v:
+    com.steepmax.expenses.InputActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.steepmax.expenses.InputActivity access$0(com.steepmax.expenses.InputActivity$10) -> a
+com.steepmax.expenses.InputActivity$10$1 -> com.steepmax.expenses.w:
+    com.steepmax.expenses.InputActivity$10 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.steepmax.expenses.InputActivity$2 -> com.steepmax.expenses.x:
+    com.steepmax.expenses.InputActivity this$0 -> a
+    com.steepmax.expenses.ExpensesApplication val$app -> b
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.steepmax.expenses.InputActivity$3 -> com.steepmax.expenses.y:
+    com.steepmax.expenses.InputActivity this$0 -> a
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.steepmax.expenses.InputActivity$4 -> com.steepmax.expenses.z:
+    com.steepmax.expenses.InputActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.steepmax.expenses.InputActivity access$0(com.steepmax.expenses.InputActivity$4) -> a
+com.steepmax.expenses.InputActivity$4$1 -> com.steepmax.expenses.aa:
+    com.steepmax.expenses.InputActivity$4 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.steepmax.expenses.InputActivity$5 -> com.steepmax.expenses.ab:
+    com.steepmax.expenses.InputActivity this$0 -> a
+    com.steepmax.expenses.ExpensesApplication val$app -> b
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+com.steepmax.expenses.InputActivity$6 -> com.steepmax.expenses.ac:
+    com.steepmax.expenses.InputActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.InputActivity$7 -> com.steepmax.expenses.ad:
+    com.steepmax.expenses.InputActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.InputActivity$7$1 -> com.steepmax.expenses.ae:
+    com.steepmax.expenses.InputActivity$7 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.steepmax.expenses.InputActivity$8 -> com.steepmax.expenses.af:
+    com.steepmax.expenses.InputActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.InputActivity$8$1 -> com.steepmax.expenses.ag:
+    com.steepmax.expenses.InputActivity$8 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.steepmax.expenses.InputActivity$9 -> com.steepmax.expenses.ah:
+    com.steepmax.expenses.InputActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.steepmax.expenses.InputActivity access$0(com.steepmax.expenses.InputActivity$9) -> a
+com.steepmax.expenses.InputActivity$9$1 -> com.steepmax.expenses.ai:
+    com.steepmax.expenses.InputActivity$9 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.steepmax.expenses.LabelAdapter -> com.steepmax.expenses.aj:
+    int resId -> a
+    android.content.Context context -> b
+    java.util.List objects -> c
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    android.view.View getDropDownView(int,android.view.View,android.view.ViewGroup) -> getDropDownView
+com.steepmax.expenses.LabelRecord -> com.steepmax.expenses.ak:
+    int labelId -> a
+    int labelColor -> b
+    java.lang.String labelName -> c
+    void setRecord(int,int,java.lang.String) -> a
+    int getLabelId() -> a
+    int getLabelColor() -> b
+    java.lang.String getLabelName() -> c
+com.steepmax.expenses.LabelsActivity -> com.steepmax.expenses.LabelsActivity:
+    java.util.List labels -> a
+    com.steepmax.expenses.LargeLabelAdapter la -> b
+    void resetList() -> a
+    void onResume() -> onResume
+    void onStop() -> onStop
+    void onPause() -> onPause
+    void onCreate(android.os.Bundle) -> onCreate
+    void onNewLabelCreated(int,java.lang.String,com.steepmax.expenses.LabelRecord) -> a
+    void onNewLabelCancelled() -> g
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    void access$0(com.steepmax.expenses.LabelsActivity) -> a
+com.steepmax.expenses.LabelsActivity$1 -> com.steepmax.expenses.al:
+    com.steepmax.expenses.LabelsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.LabelsActivity$2 -> com.steepmax.expenses.am:
+    com.steepmax.expenses.LabelsActivity this$0 -> a
+    com.steepmax.expenses.ExpensesApplication val$app -> b
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.LabelsActivity$3 -> com.steepmax.expenses.an:
+    com.steepmax.expenses.LabelsActivity this$0 -> a
+    com.steepmax.expenses.LabelRecord val$rec -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.steepmax.expenses.LabelsDataSource -> com.steepmax.expenses.ao:
+    android.database.sqlite.SQLiteDatabase database -> a
+    com.steepmax.expenses.AppSQLHelper dbHelper -> b
+    java.lang.String[] allColumns -> c
+    com.steepmax.expenses.LabelRecord createExpense(int,java.lang.String) -> a
+    void deleteExpense(com.steepmax.expenses.LabelRecord) -> a
+    java.util.List getAllLabels() -> a
+    java.util.List getAllStats(int) -> a
+com.steepmax.expenses.LabelsList -> com.steepmax.expenses.ap:
+    boolean loaded -> b
+    java.util.List labels -> a
+    void initList(java.util.List,android.content.Context) -> a
+    com.steepmax.expenses.LabelRecord getLabel(int) -> a
+    com.steepmax.expenses.LabelRecord getLabelById(int) -> b
+    int getLabelPosition(com.steepmax.expenses.LabelRecord) -> a
+com.steepmax.expenses.LargeLabelAdapter -> com.steepmax.expenses.aq:
+    int resId -> a
+    android.content.Context context -> b
+    java.util.List objects -> c
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    android.view.View getDropDownView(int,android.view.View,android.view.ViewGroup) -> getDropDownView
+com.steepmax.expenses.NewLabelDialog -> com.steepmax.expenses.ar:
+    android.widget.Spinner palette -> c
+    android.widget.Button button -> d
+    android.widget.Button button2 -> e
+    com.steepmax.expenses.LabelAdapter la -> a
+    android.content.Context context -> b
+    android.widget.EditText input -> f
+    com.steepmax.expenses.OnLabelEditorFinished handler -> g
+    boolean isNameValid() -> a
+    android.widget.Spinner access$0(com.steepmax.expenses.NewLabelDialog) -> a
+    android.widget.EditText access$1(com.steepmax.expenses.NewLabelDialog) -> b
+com.steepmax.expenses.NewLabelDialog$1 -> com.steepmax.expenses.as:
+    com.steepmax.expenses.NewLabelDialog this$0 -> a
+    android.content.Context val$context -> b
+    com.steepmax.expenses.OnLabelEditorFinished val$handler -> c
+    com.steepmax.expenses.LabelAdapter val$la -> d
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.NewLabelDialog$1$1 -> com.steepmax.expenses.at:
+    com.steepmax.expenses.NewLabelDialog$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.steepmax.expenses.NewLabelDialog$2 -> com.steepmax.expenses.au:
+    com.steepmax.expenses.NewLabelDialog this$0 -> a
+    com.steepmax.expenses.OnLabelEditorFinished val$handler -> b
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.OnLabelEditorFinished -> com.steepmax.expenses.av:
+    void onNewLabelCreated(int,java.lang.String,com.steepmax.expenses.LabelRecord) -> a
+    void onNewLabelCancelled() -> g
+com.steepmax.expenses.OperationCommand -> com.steepmax.expenses.aw:
+    boolean command() -> a
+com.steepmax.expenses.PaletteList -> com.steepmax.expenses.ax:
+    java.util.ArrayList palette -> a
+com.steepmax.expenses.QuickInputActivity -> com.steepmax.expenses.QuickInputActivity:
+    java.math.BigDecimal value -> a
+    int currency -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+    void onBackPressed() -> onBackPressed
+    boolean hasAddableValue() -> a
+    void addExpense() -> b
+    void onNewLabelCancelled() -> g
+    void onNewLabelCreated(int,java.lang.String,com.steepmax.expenses.LabelRecord) -> a
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+com.steepmax.expenses.QuickInputActivity$1 -> com.steepmax.expenses.ay:
+    com.steepmax.expenses.QuickInputActivity this$0 -> a
+    com.steepmax.expenses.ExpensesApplication val$app -> b
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+com.steepmax.expenses.QuickInputActivity$2 -> com.steepmax.expenses.az:
+    com.steepmax.expenses.QuickInputActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.QuickInputActivity$2$1 -> com.steepmax.expenses.ba:
+    com.steepmax.expenses.QuickInputActivity$2 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.steepmax.expenses.StatsActivity -> com.steepmax.expenses.StatsActivity:
+    int currencyId -> a
+    java.util.List labels -> b
+    float total -> c
+    com.steepmax.expenses.AsyncOperation async -> d
+    java.util.Comparator comparator -> e
+    void recreateStatistics(int,long) -> a
+    void renderStatistics() -> a
+    void initDefaultCurrencyId() -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+    void access$0(com.steepmax.expenses.StatsActivity,java.util.List) -> a
+    java.util.List access$1(com.steepmax.expenses.StatsActivity) -> a
+    void access$2(com.steepmax.expenses.StatsActivity,float) -> a
+    float access$3(com.steepmax.expenses.StatsActivity) -> b
+    java.util.Comparator access$4(com.steepmax.expenses.StatsActivity) -> c
+    void access$5(com.steepmax.expenses.StatsActivity) -> d
+    int access$6(com.steepmax.expenses.StatsActivity) -> e
+com.steepmax.expenses.StatsActivity$1 -> com.steepmax.expenses.bb:
+    com.steepmax.expenses.StatsActivity this$0 -> a
+    int compare(com.steepmax.expenses.StatsItem,com.steepmax.expenses.StatsItem) -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.steepmax.expenses.StatsActivity$2 -> com.steepmax.expenses.bc:
+    com.steepmax.expenses.StatsActivity this$0 -> a
+    int val$currencyId -> b
+    boolean command() -> a
+com.steepmax.expenses.StatsActivity$3 -> com.steepmax.expenses.bd:
+    com.steepmax.expenses.StatsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.StatsActivity$4 -> com.steepmax.expenses.be:
+    com.steepmax.expenses.StatsActivity this$0 -> a
+    com.steepmax.expenses.ExpensesApplication val$app -> b
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.StatsActivity$5 -> com.steepmax.expenses.bf:
+    com.steepmax.expenses.StatsActivity this$0 -> a
+    com.steepmax.expenses.ExpensesApplication val$app -> b
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.StatsActivity$6 -> com.steepmax.expenses.bg:
+    com.steepmax.expenses.StatsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.StatsActivity$7 -> com.steepmax.expenses.bh:
+    com.steepmax.expenses.StatsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.StatsActivity$8 -> com.steepmax.expenses.bi:
+    com.steepmax.expenses.StatsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.steepmax.expenses.StatsAdapter -> com.steepmax.expenses.bj:
+    java.util.List objects -> a
+    android.content.Context context -> b
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.steepmax.expenses.StatsItem -> com.steepmax.expenses.bk:
+    int labelId -> a
+    int currencyId -> b
+    java.lang.String percentageLabel -> c
+    float percentage -> d
+    java.lang.String description -> e
+    float sum -> f
+    int color -> g
+    java.lang.String formatFloat(float,int) -> a
+    void setColor(int) -> a
+    int getColor() -> a
+    int getLabelId() -> b
+    void setLabelId(int) -> b
+    int getCurrencyId() -> c
+    void setCurrencyId(int) -> c
+    java.lang.String getPercentageLabel() -> d
+    float getPercentage() -> e
+    void setPercentage(float) -> a
+    java.lang.String getDescription() -> f
+    void setDescription(java.lang.String) -> a
+    float getSum() -> g
+    void setSum(float) -> b

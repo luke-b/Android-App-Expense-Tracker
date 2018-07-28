@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigationHeader1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+     android:background="@drawable/headerback1"
+    android:baselineAligned="true"
+    android:padding="5dip" >
+
+        <Button
+            android:id="@+id/navigationPrevious"
+            android:background="@drawable/leftbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="" /> <!-- @string/prev -->
+
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+			android:gravity="center"
+		    android:layout_weight="1" >
+
+		    <!-- 
+			<ProgressBar
+			    android:id="@+id/navigationProgressBar1"
+			    style="?android:attr/progressBarStyleSmall"
+			    android:visibility="gone"
+			    android:paddingRight="5dip"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content" />
+			    -->
+
+        <TextView
+            android:id="@+id/navigationLabel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+     
+            android:gravity="center"
+            android:paddingLeft="5dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="July 2012"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/navigationRight"
+            android:background="@drawable/rightbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="" /> <!-- @string/next -->
+
+</LinearLayout>

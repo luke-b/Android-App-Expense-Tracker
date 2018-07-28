@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+    <include  layout="@layout/statsheader"/>
+  
+    <include  layout="@layout/navigationheader"/>
+    
+    <include layout="@layout/currencyheader"/> 
+   
+    <include layout="@layout/statswarningheader"/>
+    
+    <include layout="@layout/generatingheader"/>
+        
+    <ListView
+        android:id="@+id/statsListView1"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    
+
+</LinearLayout>

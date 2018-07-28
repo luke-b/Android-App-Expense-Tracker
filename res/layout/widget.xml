@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    android:background="@drawable/headerback1"
+    android:orientation="vertical"
+     >
+
+    <TextView
+        android:id="@+id/widgetTextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_title"
+        android:gravity="center"
+        android:padding="3dip"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+
+    
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/widgetStatsNew"
+            android:background="@drawable/statsbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" /> <!-- @string/list" -->
+        
+        <Button
+            android:id="@+id/widgetStats"
+            android:background="@drawable/listbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" /> <!-- @string/list" -->
+
+        <Button
+            android:id="@+id/widgetAdd"
+            android:background="@drawable/inputbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" /> <!-- @string/widget_add_button -->
+    </LinearLayout>
+
+</LinearLayout>

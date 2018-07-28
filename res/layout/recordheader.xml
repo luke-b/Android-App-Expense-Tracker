@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="@drawable/headerback1"
+    android:baselineAligned="true"
+    android:padding="5dip" >
+
+        <Button
+            android:id="@+id/recordAdd1"
+            android:background="@drawable/addback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="" /> <!-- @string/add -->
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+           
+            android:gravity="left"
+            android:paddingLeft="5dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/my_expenses_header_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+        
+             <ProgressBar
+            android:id="@+id/navigationProgressBar1"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:visibility="gone" />
+        
+        <View android:layout_weight="1"
+              android:layout_width="0dip"
+              android:layout_height="1dip"/>
+        
+
+       <Button
+           android:id="@+id/recordsFilterToggle"
+           android:background="@drawable/filterbutton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:text="" /> <!-- @string/filtr -->  
+        
+        <Button
+            android:id="@+id/recordsStats"
+            android:background="@drawable/statsbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="" /> <!-- @string/stats -->
+
+</LinearLayout>
