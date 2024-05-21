@@ -1,0 +1,30 @@
+name: Setup Gradle Wrapper
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  setup-gradle-wrapper:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Gradle
+      uses: gradle/gradle-build-action@v1
+      with:
+        gradle-version: 7.3.1  # specify the Gradle version you want to install
+
+    - name: Generate Gradle Wrapper
+      run: gradle wrapper
+
+    - name: Commit Gradle Wrapper
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git add .
+        git commit -m "Add Gradle wrapper"
+        git push
