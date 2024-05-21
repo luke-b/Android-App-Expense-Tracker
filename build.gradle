@@ -42,6 +42,3 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
