@@ -23,7 +23,7 @@ android {
         applicationId "com.steepmax.expenses"
         minSdkVersion 8
         targetSdkVersion 30
-        versionCode 13
+        versionCode 13  // Ensure this is a valid integer
         versionName "1.12"
     }
     buildTypes {
