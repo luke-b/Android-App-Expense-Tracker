@@ -18,6 +18,14 @@ jobs:
       with:
         gradle-version: 7.3.1  # specify the Gradle version you want to install
 
+    - name: Initialize Gradle Build
+      run: |
+        if [ ! -f build.gradle ]; then
+          echo "apply plugin: 'java'" > build.gradle
+          echo "rootProject.name = 'expense-tracker'" > settings.gradle
+        fi
+        gradle init
+
     - name: Generate Gradle Wrapper
       run: gradle wrapper
 

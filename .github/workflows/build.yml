@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    - needs: setup-gradle-wrapper  
+    - needs: setup-gradle-wrapper  # Ensure this job runs after the setup job
       runs-on: ubuntu-latest
 
     steps:
