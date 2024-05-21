@@ -16,7 +16,7 @@ jobs:
     - name: Install Gradle
       uses: gradle/gradle-build-action@v1
       with:
-        gradle-version: 9.0  # specify the Gradle version you want to install
+        gradle-version: 8.1 # specify the Gradle version you want to install
 
     - name: Initialize Gradle Build
       run: |
